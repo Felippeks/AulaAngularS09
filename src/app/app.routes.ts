@@ -3,12 +3,12 @@ import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
-    {
-        path: 'card',
-        component: CardComponent
-    },
-    {
-        path: "",
-        component: HomeComponent
-    }
+  {
+    path: 'card',
+    component: CardComponent,
+  },
+  {
+    path: '',
+    component: HomeComponent,
+  },
 ];

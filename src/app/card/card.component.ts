@@ -6,8 +6,8 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.css'
+  styleUrl: './card.component.css',
 })
 export class CardComponent {
-  @Input() item: {nome: string; preco: number; imagem:string} | undefined;
+  @Input() item: { nome: string; preco: number; imagem: string } | undefined;
 }
